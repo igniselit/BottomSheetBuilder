@@ -14,17 +14,18 @@
  * limitations under the License.
  */
 
-package com.github.rubensousa.bottomsheetbuilder.adapter;
+package com.github.igniselit.bottomsheetbuilder.adapter;
 
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.github.rubensousa.bottomsheetbuilder.BottomSheetBuilder;
-import com.github.rubensousa.bottomsheetbuilder.R;
+import androidx.appcompat.widget.AppCompatImageView;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.github.igniselit.bottomsheetbuilder.BottomSheetBuilder;
+import com.github.igniselit.bottomsheetbuilder.R;
 
 import java.util.List;
 

@@ -14,16 +14,12 @@
  * limitations under the License.
  */
 
-package com.github.rubensousa.bottomsheetbuilder.adapter;
+package com.github.igniselit.bottomsheetbuilder.adapter;
 
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.v7.view.menu.MenuBuilder;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -31,8 +27,13 @@ import android.view.SubMenu;
 import android.view.View;
 import android.widget.TextView;
 
-import com.github.rubensousa.bottomsheetbuilder.BottomSheetBuilder;
-import com.github.rubensousa.bottomsheetbuilder.R;
+import androidx.appcompat.view.menu.MenuBuilder;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.github.igniselit.bottomsheetbuilder.BottomSheetBuilder;
+import com.github.igniselit.bottomsheetbuilder.R;
 
 import java.util.ArrayList;
 import java.util.List;

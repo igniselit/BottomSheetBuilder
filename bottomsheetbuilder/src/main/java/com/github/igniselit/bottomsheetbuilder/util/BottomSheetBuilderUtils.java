@@ -14,12 +14,13 @@
  * limitations under the License.
  */
 
-package com.github.rubensousa.bottomsheetbuilder.util;
+package com.github.igniselit.bottomsheetbuilder.util;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.design.widget.BottomSheetBehavior;
+
+import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
 public class BottomSheetBuilderUtils {
 

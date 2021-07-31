@@ -14,9 +14,30 @@
  * limitations under the License.
  */
 
-package com.github.rubensousa.bottomsheetbuilder.adapter;
+package com.github.igniselit.bottomsheetbuilder.adapter;
 
 
-interface BottomSheetItem {
-    String getTitle();
+import androidx.annotation.ColorInt;
+
+class BottomSheetHeader implements BottomSheetItem {
+
+    private String mTitle;
+
+    @ColorInt
+    private int mTextColor;
+
+    public BottomSheetHeader(String title, @ColorInt int color) {
+        mTitle = title;
+        mTextColor = color;
+    }
+
+    @ColorInt
+    public int getTextColor() {
+        return mTextColor;
+    }
+
+    @Override
+    public String getTitle() {
+        return mTitle;
+    }
 }

@@ -14,11 +14,27 @@
  * limitations under the License.
  */
 
-package com.github.rubensousa.bottomsheetbuilder.adapter;
+package com.github.igniselit.bottomsheetbuilder.adapter;
 
 
-import android.view.MenuItem;
+import androidx.annotation.DrawableRes;
 
-public interface BottomSheetItemClickListener {
-    void onBottomSheetItemClick(MenuItem item);
+class BottomSheetDivider implements BottomSheetItem {
+
+    @DrawableRes
+    private int mBackgroundDrawable;
+
+    public BottomSheetDivider(@DrawableRes int background) {
+        mBackgroundDrawable = background;
+    }
+
+    @DrawableRes
+    public int getBackground() {
+        return mBackgroundDrawable;
+    }
+
+    @Override
+    public String getTitle() {
+        return "";
+    }
 }
